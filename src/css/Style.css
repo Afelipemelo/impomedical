@@ -1,0 +1,320 @@
+/* BODY */
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* HEADER*/
+
+.containerImagen{
+    display: flex;
+    justify-content: end;
+}
+.imgImpormedical{
+    margin-top: 15px;
+    height: 65px;
+    width: 80px;
+}
+.misPedidos{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.misPedidos h5{
+    margin: 0 ;
+    margin-top: 10px;
+    margin-right: 12px;
+}
+.ingresar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px;
+}
+.ingresar h5 {
+    margin: 0;
+}
+.carrito{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.carrito h4 {
+    margin: 0;
+}
+
+/* NAVBAR */
+.navBar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.containerNavbar{
+    display: flex;
+}
+.iconNavBar{
+    display: flex;
+}
+.iconNavBar h6{
+    margin: 0 ;
+    margin-top: 10px;
+}
+.menuRayas{
+    display: flex;
+    justify-content: center;
+}
+
+/* SLIDER */
+.containerSlider{
+ background-image: url('../img/baner.webp');
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 500px;
+}
+.texto{
+    font-size: 60px;
+}
+.contenedorTexto{
+    margin: 50px 0px 0px 100px;
+}
+
+/* NUEVACOLECCION */
+.containerNuevaColeccion{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.titulo h1{
+    color: #0021F4;
+}
+.sillaSelec{
+    display: flex;
+    flex-direction: column;
+    border: solid rgba(100, 100, 100, 0.3);
+    border-radius: 20px;
+    margin-bottom: 5px;
+    
+}
+.sillas{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.sillaSelec p{
+    text-align: center;
+}
+.sillas p{
+    text-align: center;
+}
+
+/* INFO */
+.containerInfo{
+    display: flex;
+    justify-content: center;
+}
+.info{
+  background-image: url('../img/info1.webp');
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  background-color: rgb(15, 15, 15);
+  background-blend-mode: soft-light;
+  position: relative;
+  border-radius: 5px;
+}
+
+.info h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 80px;
+}
+.tienda{
+    background-image: url('../img/info2.webp');
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-color: rgb(80, 80, 80);
+    background-blend-mode: soft-light;
+    position: relative;
+    border-radius: 5px;
+}
+.tienda h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 80px;
+}
+.usuario{
+    background-image: url('../img/info3.webp');
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-color: rgb(80, 80, 80);
+    background-blend-mode: soft-light;
+    position: relative;
+    border-radius: 5px;
+}
+.usuario h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 80px;
+}
+.servicio{
+    background-image: url('../img/info4.webp');
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-color: rgb(80, 80, 80);
+    background-blend-mode: soft-light;
+    position: relative;
+    border-radius: 5px;
+}
+.servicio h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 80px;
+}
+.gente{
+    background-image: url('../img/info5.webp');
+    width: 100%;
+    height: 500;
+    background-size: cover;
+    background-color: rgb(80, 80, 80);
+    background-blend-mode: soft-light;
+    position: relative;
+    border-radius: 5px;
+}
+.gente h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 250px;
+}
+/* CATALOGO */
+.opcionesCatalogo{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.opcionesCata{
+    background-color: #354EEA;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+   
+}
+.opcionesCata h3{
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+    color: yellow;
+}
+.productoCatalogoGris{
+    background-color:  #D0D3D4;
+    width: 100%;
+    height: 700px;
+}
+.productoCatalogo{
+    background-color: #D0D3D4;
+    background-image: url('../img/catalogo2.webp');
+    background-position: center ;
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+}
+.containerCatalogo{
+    display: flex;
+    justify-content: center;
+}
+.productoCatalogoGris h1{
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: -200px;
+}
+.containerNuevaColeccionCatalogo{
+    display: flex;
+    justify-content: center;
+    margin-top: -480px;
+    margin-bottom: 80px;
+}
+.sillasCatalogo{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: white;
+}
+.sillasCatalogootro{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+.sillasCatalogo h4{
+    text-decoration:line-through;
+    color: #B2BABB;
+    margin:0;
+}
+.sillasCatalogo h2{
+    margin:0;
+}
+.botonCatalogo{
+    margin-top: 10px;
+}
+/* PRODUCTOS */
+
+.empresas{
+    background-image: url('../img/producto1.webp');
+    background-position: center ;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.empresas h1{
+    color: white;
+    font-size: 45px;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.complemento h1{
+    color: white;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.complemento{
+    background-image: url('../img/procuto2.webp');
+    background-position: center ;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    border-radius: 10px;
+}
+/* CONTACTO */
+/* FOOTER */
+.main-footer {
+    color: white;
+    background-color: #1C2833;
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .primeraSeccion h3{
+    margin-left: 10PX;
+    color: yellow;
+  }
+  .primeraSeccion ul{
+    list-style: none;
+  }
